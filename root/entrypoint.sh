@@ -1,5 +1,7 @@
 #!/usr/bin/env ash
 
+echo "Whoam I: $(whoami)"
+
 # Ensure the config directory exists
 mkdir -p /config/qBittorrent
 
