@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  image:
+    build: .
+    image: homecentr/qbittorrent:preview
+    ports:
+      - "8080:8080"
+    tmpfs:
+      - /config:mode=770,uid=1000,gid=1000
+      - /downloads:mode=770,uid=1000,gid=1000
