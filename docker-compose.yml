@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  image:
+    build: .
+    image: homecentr/qbittorrent:preview
+    ports:
+      - "8080:8080"
