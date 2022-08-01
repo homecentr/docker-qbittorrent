@@ -6,6 +6,7 @@
 
 
 # Homecentr - qbittorrent
+Docker image of qBittorrent based on [LinuxServer.io's image](https://fleet.linuxserver.io/image?name=linuxserver/qbittorrent) just with removed bells and whistles which I do not consider secure - LSIO requires SET_UID, SET_GID and other capabilities. It also generally relies on running as root which I am not comfortable with and therefore this image runs strictly as a non-root user.
 
 ## Exposed ports
 
