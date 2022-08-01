@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
 
-      - uses: homecentr/action-build-docker-image@fix/build
+      - uses: homecentr/action-build-docker-image@master
         with:
           imageName: "homecentr/qbittorrent"
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
