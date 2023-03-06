@@ -1,4 +1,4 @@
-FROM linuxserver/qbittorrent:4.4.3
+FROM linuxserver/qbittorrent:4.5.2
 
 ARG USER_UID=1000
 ARG USER_GID=1000
